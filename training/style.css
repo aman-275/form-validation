@@ -1,0 +1,68 @@
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline:none;
+}
+
+body{
+
+    background-color: blue;
+}
+
+
+.wrapper{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border:2px solid white;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 6px 6px 10px  white;
+}
+
+.wrapper h2{
+
+    color:white;
+    margin-bottom:20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.wrapper form{
+
+    padding: 20px;
+    
+}
+
+.wrapper form .input_field{
+
+    margin-bottom: 20px;
+    
+}
+
+.input_field input[type="text"],.input_field input[type="password"]{
+
+    color:blue;
+    padding-left:20px;  
+    padding-top:5px;
+    padding-bottom: 5px;
+
+    
+}
+
+
+.btn{
+    padding:20px,0;
+    text-align: center;
+}
+
+#erro{
+    text-align: center;
+    transition: all 0s ease;
+    background-color:red;
+    color:white;
+}
